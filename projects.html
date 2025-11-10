@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects — Mehdi Benkaouz</title>
+  <style>
+    :root { --accent:#571929; --bg:#f5f1e8; }
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:#222;line-height:1.6}
+    header{background:var(--accent);color:#fff;text-align:center;padding:18px 16px}
+    header h1{font-size:1.6rem;font-weight:700;letter-spacing:.3px}
+    main{max-width:860px;margin:36px auto;padding:0 20px}
+    h2{color:var(--accent);margin:28px 0 8px;border-bottom:2px solid #57192933;padding-bottom:6px;font-size:1.15rem}
+    p,li{font-size:1.02rem;margin-top:8px}
+    ul{margin-left:18px;list-style:square}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .project-card{
+      background:#fff;border:1px solid #ddd;border-radius:10px;
+      padding:18px 20px;margin-bottom:20px;
+      box-shadow:0 2px 6px #0001;
+      transition:transform .2s ease, box-shadow .2s ease;
+    }
+    .project-card:hover{
+      transform:translateY(-2px);
+      box-shadow:0 4px 12px #0002;
+    }
+    .tag{display:inline-block;border:1px solid #57192955;color:#571929;
+      padding:2px 8px;border-radius:999px;font-size:.85rem;margin:4px 6px 0 0}
+    footer{margin:44px 0 28px;text-align:center;color:#555;font-size:.92rem}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Projects</h1>
+    <p style="margin-top:6px;font-size:.95rem">
+      <a href="index.html" style="color:#fff;text-decoration:underline">← Back to CV</a>
+    </p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Highlighted Projects</h2>
+
+      <div class="project-card">
+        <h3>Akyro — Document Intelligence App</h3>
+        <p>
+          Cross-platform Python app for intelligent document management. 
+          Converts PDFs and DOCX files into editable proprietary format (.akr), 
+          featuring OCR, drag & drop interface (PyQt6), and visual editing similar to InDesign.
+        </p>
+        <div>
+          <span class="tag">Python</span>
+          <span class="tag">PyQt6</span>
+          <span class="tag">OCR</span>
+          <span class="tag">PDF</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h3>DEN — Global Economic Model</h3>
+        <p>
+          A theoretical framework for a world economy governed by a single currency 
+          and automated investment cycles, described mathematically in “DENFINITO”. 
+          Integrates macroeconomics, AI governance, and human capital distribution.
+        </p>
+        <div>
+          <span class="tag">Economics</span>
+          <span class="tag">Macro Modelling</span>
+          <span class="tag">Philosophy</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h3>The Absolute Framework</h3>
+        <p>
+          A published theoretical study (PhilPapers, 2025) exploring the logical and 
+          computational structure of ethics through mathematical formalization and 
+          quantum-inspired logic networks.
+        </p>
+        <p><a href="https://philpapers.org/rec/BENATS-3" target="_blank">Read on PhilPapers →</a></p>
+        <div>
+          <span class="tag">Logic</span>
+          <span class="tag">Computation</span>
+          <span class="tag">Philosophy</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h3>Personal Game Engine (Unity)</h3>
+        <p>
+          Experimental 3D sandbox featuring exploration across 9 dimensions and 
+          non-Euclidean geometry transitions. All assets and music fully self-produced.
+        </p>
+        <div>
+          <span class="tag">Unity</span>
+          <span class="tag">C#</span>
+          <span class="tag">Procedural Worlds</span>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <footer>© 2025 Mehdi Benkaouz — All rights reserved.</footer>
+</body>
+</html>
